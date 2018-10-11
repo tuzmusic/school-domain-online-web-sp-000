@@ -23,6 +23,7 @@ class School
     sorted.each { |grade, names|
       sorted[grade] = names.sort
     }
+    sorted
   end
 
 end
