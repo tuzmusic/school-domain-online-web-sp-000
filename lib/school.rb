@@ -5,4 +5,8 @@ class School
   end
 
   attr_reader :name, :roster
+
+  def add_student(name, grade)
+    @roster << {grade => name}
+  end
 end
