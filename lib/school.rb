@@ -7,6 +7,6 @@ class School
   attr_reader :name, :roster
 
   def add_student(name, grade)
-    @roster[grade] = name
+    @roster[grade] = pname]
   end
 end
